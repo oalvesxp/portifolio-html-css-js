@@ -29,6 +29,11 @@ body
     box-sizing: border-box;
 }
 
+ul
+{
+    list-style: none;
+}
+
 .section
 {
     background: var(--bg-black-900);
