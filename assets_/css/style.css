@@ -29,6 +29,13 @@ body
     box-sizing: border-box;
 }
 
+.section
+{
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+}
+
 /* Aside */
 .aside
 {
