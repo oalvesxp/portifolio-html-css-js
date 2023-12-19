@@ -290,6 +290,18 @@ h3.my-profession
     position: relative;
 }
 
+.home-img::before
+{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: -5px;
+    top: -40px;
+}
+
 .home-img::after
 {
     content: '';
